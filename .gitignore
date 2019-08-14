@@ -1,0 +1,4 @@
+src/vendor/
+bin/
+Gopkg.lock
+.DS_Store
