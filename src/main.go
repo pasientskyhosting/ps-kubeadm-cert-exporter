@@ -23,7 +23,7 @@ import (
 )
 
 var (
-	kubeadmConf = []string{"admin.conf", "controller-manager.conf", "scheduler.conf"}
+	kubeadmConf = []string{"admin.conf", "controller-manager.conf", "scheduler.conf", "kubelet.conf"}
 	certStatus  = promauto.NewGaugeVec(
 		prometheus.GaugeOpts{
 			Name: "kubeadm_cert_expiration",

@@ -1,4 +1,4 @@
-VERSION ?= "v1.0.0"
+VERSION ?= "v1.1.0"
 run:
 	go run -race src/*.go
 

@@ -18,13 +18,7 @@ export POLL_INTERVAL=60 && \
 export METRICS_PORT=9598
 ```
 
-### Step 2 - Install dependencies
-
-Install `dep` https://golang.github.io/dep/docs/installation.html
-
-Run `dep ensure` in the `src` directory
-
-### Step 3 - Build docker image and run
+### Step 2 - Build docker image and run
 
 `make all` to build binaries and create the docker image
 
